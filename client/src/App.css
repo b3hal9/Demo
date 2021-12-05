@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  margin-top: 120px;
+  justify-content: center;
+  align-content: center;
+}
+
+.errortext {
+  color: tomato;
+  margin-top: 5px;
+  font-size: 12px;
+}

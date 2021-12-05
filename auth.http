@@ -1,0 +1,17 @@
+### uesr register
+POST http://localhost:5000/register HTTP/1.1
+Content-Type: application/json
+
+{  
+  "name": "Bishal Bista",
+  "email": "b3hal9@gmail.com",
+  "password": "12345678"
+}
+### user login
+POST http://localhost:5000/login HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "b3hal9@gmail.com",
+  "password": "12345678"
+}
